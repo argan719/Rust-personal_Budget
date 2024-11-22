@@ -1,2 +1,6 @@
-[default.databases]
-personal_budget {url = "sqlite:personal_budget.db" }
+[global.databases]
+budget_db = { url = "sqlite://budget.db" }
+
+[debug]
+address = "127.0.0.1"
+port = 8000
