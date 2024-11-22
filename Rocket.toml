@@ -1,0 +1,2 @@
+[default.databases]
+personal_budget {url = "sqlite:personal_budget.db" }
